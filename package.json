@@ -1,0 +1,28 @@
+{
+  "name": "passport-targetprocess",
+  "version": "1.0.0-alapha.1",
+  "description": "Targetprocess authentication strategy for Passport and Node.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TargetProcess/passport-targetprocess.git"
+  },
+  "author": "Konstantin Krivlenia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TargetProcess/passport-targetprocess/issues"
+  },
+  "homepage": "https://github.com/TargetProcess/passport-targetprocess#readme",
+  "dependencies": {
+    "passport-strategy": "^1.0.0",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-passport-strategy": "^1.0.0",
+    "mocha": "^2.4.5"
+  }
+}
